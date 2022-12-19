@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap');
+.p{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/school.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.p-aclone{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.87);
+    opacity: 80%;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 2px 1px 0px rgb(0, 0, 0);
+}
+
+.p-a{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    z-index: 999;
+}
+
+.p-img{
+    width: 140px;
+    height: 90px;
+    top: 0px;
+    bottom: 0px;
+    margin: 0px;
+    margin-left: 10%;
+    padding: 0px;
+     
+}
+
+.p-a1 {
+    width: 100%;
+    height:fit-content ;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    margin-top: 3.6%;
+}
+.p-t{
+    font-weight: 600;
+    color: rgb(104, 104, 104);
+    font-size: 12px;
+    font-family: poppins;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.p-ab{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 5%;
+}
+
+.p-abp{
+    margin: 0% 2%;
+    margin-right: 0%;
+    padding: 0%; 
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+}
+
+
+.p-abp:hover{
+    color: rgb(48, 167, 232);
+}
+
+.p-wrapper{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    z-index: 99;
+}
+
+.p-left{
+    width:50%;
+    height: 100%;
+    position: relative;
+    margin-top: 10%;
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-intro{
+    width: 80%;
+    height: 100%;
+}
+
+.p-title{
+    color: white; 
+    font-size: 55px;
+    font-weight: 400;
+    font-family: roboto;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.p-body{
+    width: 95%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.148);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-text{
+    width: 90%;
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.p-man{
+    width: 95%;
+    text-align: right;
+    font-size: 150%;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-family: Consolas;
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-right{
+    width:50%;
+    height: 100%;
+    position: relative;
+    margin-top: 10%;
+    flex:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-iri{
+    width:70%;
+    height:100%;
+    margin:0px;
+    padding: 0px;
+    padding-left: 10%;
+    right: 0px;
+}
+
+.p-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.87);
+    opacity: 80%;
+   }
+
+.p-p{
+    display: flex;
+    width: 100%;
+    color: rgb(104, 104, 104);
+    font-size: 12px;
+    font-family: poppins;
+    z-index: 9999;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
